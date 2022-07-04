@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 
 namespace RSA_Encryption {
     class Manager {
-        public static void Save(RSACryptoServiceProvider rsa, string path) {
+        public static void Export(RSACryptoServiceProvider rsa, string path) {
             RSAParameters publicKey = rsa.ExportParameters(false); // Exporting the public key.
             RSAParameters privateKey = rsa.ExportParameters(true); // Exporting the private key.
 
