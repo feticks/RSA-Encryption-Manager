@@ -1,6 +1,6 @@
 # RSA Encryption Manager
 
-**Simple example usage of RSA encryption.**
+**Simple example usage of RSA encryption in .NET**
 
 Converts keys to-from XML format and also shows the handling of importing/exporting and encrypting/decrypting.
 
