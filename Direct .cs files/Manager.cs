@@ -34,7 +34,7 @@ namespace RSA_Encryption {
             var xmlSerializer = new XmlSerializer(typeof(RSAParameters)); // New instance of XML serializer as RSA algorithm type.
 
             xmlSerializer.Serialize(stringWriter, key); // Formatting key as XML.
-            return stringWriter.ToString(); // Covnerting back to a string.
+            return stringWriter.ToString(); // Converting back to a string.
         }
     }
 }
