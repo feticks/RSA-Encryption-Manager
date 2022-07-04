@@ -1,4 +1,4 @@
-# RSA-Encryption-Manager-Import-Export-
+# RSA Encryption Manager
 
 **Simple example usage of RSA encryption.**
 
