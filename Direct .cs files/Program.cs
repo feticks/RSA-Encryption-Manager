@@ -25,7 +25,7 @@ namespace RSA_Encryption {
             var publicKey = Manager.KeyToString(importedRsa.ExportParameters(false)); // Grabbing the public key as an XML string. 
             var privateKey = Manager.KeyToString(importedRsa.ExportParameters(true)); // Grabbing the private key as an XML string.
 
-            string textToEncrypt = "Hello World!"; //Unencrypted string.
+            string textToEncrypt = "Hello World!"; // Unencrypted string.
             Write("Text to encrypt:", textToEncrypt);
 
             var encryptedText = RSA.Encrypt(textToEncrypt, publicKey); // Encrypting string.
