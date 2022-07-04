@@ -10,7 +10,7 @@ namespace RSA_Encryption {
 
             // Exporting
             var rsa = new RSACryptoServiceProvider(2048); // Creates new instance with key size.
-            Manager.Save(rsa, "Keys/Keys Base64.txt"); // Converts the public & private key to XML format and saves in specified path.
+            Manager.Export(rsa, "Keys/Keys Base64.txt"); // Converts the public & private key to XML format and saves in specified path.
 
             File.WriteAllText("Keys/Public XML.txt", // Writing public key as XML format.
                 Manager.KeyToString(
